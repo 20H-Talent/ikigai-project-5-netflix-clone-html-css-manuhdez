@@ -1,8 +1,15 @@
 # Estimated time to finish the project
 
-|        | html  | css   | total |
-| ------ | ----- | ----- | ----- |
-| home   | 1:00h | 3:00h | 4:00h |
-| search | 1:00h | 0h    | 1:00h |
-| detail | 0:30h | 0:30h | 1:00h |
-|        |       | total | 6:00h |
+| Task ------------------ | Estimation (hours) | Real (hours) |
+| ----------------------- | ------------------ | ------------ |
+| Home page ------------- | 5h 00m (12 pomo) - | ------------ |
+| Detail page ----------- | 0h 50m (2 pomo) -- | ------------ |
+| Search page ----------- | 0h 50m (2 pomo) -- | ------------ |
+| ----------------------- | ------------------ | ------------ |
+| Navbar ---------------- | 0h 25m (1 pomo) -- | ------------ |
+| Search input ---------- | 0h 25m (1 pomo) -- | ------------ |
+| Header info ----------- | 0h 50m (2 pomo) -- | ------------ |
+| Big carrousel --------- | 1h 15m (3 pomo) -- | ------------ |
+| Small carrousel ------- | 1h 15m (3 pomo) -- | ------------ |
+| Footer ---------------- | 0h 50m (2 pomo) -- | ------------ |
+| Detail video player --- | 0h 25m (1 pomo) -- | ------------ |

@@ -52,9 +52,39 @@ nav {
 
 .nav-form {
   margin-left: auto;
-  margin-right: 61.3px; }
+  margin-right: 61px;
+  height: 34px;
+  width: 268px;
+  display: flex;
+  align-content: center;
+  position: relative;
+  display: flex;
+  justify-content: flex-end; }
+  .nav-form label {
+    margin-left: auto;
+    margin-top: 7px; }
   .nav-form #search {
-    display: none; }
+    transition: all 300ms ease-out;
+    height: 100%;
+    background: none;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 18px;
+    color: #7F7F7F;
+    opacity: 0;
+    width: 0;
+    border: none; }
+    .nav-form #search:focus {
+      opacity: 1;
+      width: 232px;
+      margin-left: 10px;
+      outline: none; }
+    .nav-form #search:focus + .input-border {
+      transition: all 600ms ease-out;
+      border: 1px solid #fff;
+      position: absolute;
+      width: 100%;
+      height: 100%; }
 
 #cover {
   position: relative;

@@ -229,4 +229,17 @@ nav {
     font-size: 14px;
     line-height: 18px; }
 
+iframe {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+.icon-back {
+  position: absolute;
+  top: 75px;
+  left: 30px;
+  width: 54px;
+  height: 54px; }
+
 /*# sourceMappingURL=styles.css.map */

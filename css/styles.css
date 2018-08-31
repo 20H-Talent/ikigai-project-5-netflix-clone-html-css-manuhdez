@@ -24,6 +24,9 @@ body {
   background-image: url(../assets/movie-images/pelicula-inocents.png);
   background-repeat: no-repeat; }
 
+#video-detail {
+  background-image: none; }
+
 .head-buttons .btn-head {
   font-size: 16px;
   font-weight: bold;

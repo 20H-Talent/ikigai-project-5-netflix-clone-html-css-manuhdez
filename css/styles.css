@@ -157,7 +157,8 @@ nav {
   .originals-covers article {
     position: relative;
     margin-right: 5px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    height: 433px; }
     .originals-covers article:first-child {
       margin-left: 58px; }
 
@@ -171,7 +172,10 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fafdfc;
   font-family: Helvetica;
-  opacity: 0; }
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
   .cover-info:hover {
     opacity: 1; }
   .cover-info a img {
@@ -180,23 +184,28 @@ nav {
     font-size: 16px;
     letter-spacing: 1.2px;
     line-height: 19px;
-    margin: 5px 0; }
-  .cover-info .cover-details .match {
-    color: #46D36A;
-    font-size: 14px;
-    letter-spacing: 0.4px;
-    margin-top: 2px; }
-  .cover-info .cover-details .rating {
-    font-size: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.41);
-    padding: 0 6px 3px 7px;
-    margin: 0 4px 0 2px;
+    margin-top: 5px; }
+  .cover-info .cover-details {
+    line-height: 17px;
+    vertical-align: bottom;
+    margin-top: 6px;
     box-sizing: border-box; }
-  .cover-info .cover-details .duration {
-    font-size: 14px;
-    margin-top: 2px; }
+    .cover-info .cover-details .match {
+      color: #46D36A;
+      font-size: 14px;
+      letter-spacing: 0.4px;
+      margin-top: 2px; }
+    .cover-info .cover-details .rating {
+      font-size: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.41);
+      padding: 0 6px 2px 6px;
+      margin: 0 4px 0 2px;
+      box-sizing: border-box; }
+    .cover-info .cover-details .duration {
+      font-size: 14px;
+      margin-top: 2px; }
   .cover-info .cover-bio {
-    margin-top: 8px;
+    margin-top: 6px;
     font-size: 14px;
     line-height: 18px; }
 

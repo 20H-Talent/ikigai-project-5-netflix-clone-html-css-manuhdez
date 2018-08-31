@@ -24,6 +24,27 @@ body {
   background-image: url(../assets/movie-images/pelicula-inocents.png);
   background-repeat: no-repeat; }
 
+.head-buttons .btn-head {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.22px;
+  line-height: 19px;
+  padding: 11px 36px;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(51, 51, 51, 0.4);
+  color: #fafdfc; }
+  .head-buttons .btn-head img {
+    margin-right: 4px; }
+  .head-buttons .btn-head:first-child:hover img {
+    content: url(../assets/svg/btn-play-black.svg); }
+  .head-buttons .btn-head:last-child:hover img {
+    content: url(../assets/svg/icon-plus-black.svg); }
+  .head-buttons .btn-head:hover {
+    color: #000;
+    background-color: #e6e6e6; }
+
 nav {
   width: 100%;
   height: 68px;
@@ -89,55 +110,48 @@ nav {
 #cover {
   position: relative;
   font-family: Helvetica; }
-  #cover .movie-title {
-    margin-top: 187.69px;
-    margin-left: 61px;
-    display: inline-block; }
-  #cover .head-buttons {
-    margin-top: 20px;
-    margin-left: 58px;
-    margin-bottom: 15px; }
-    #cover .head-buttons .btn-head {
-      font-size: 16px;
-      font-weight: bold;
-      letter-spacing: 0.22px;
-      line-height: 19px;
-      padding: 11px 36px;
-      margin-right: 12px;
-      border-radius: 3px;
-      border: none;
-      background-color: rgba(51, 51, 51, 0.4);
-      color: #fafdfc; }
-  #cover .head-info {
-    color: #fafdfc; }
-    #cover .head-info .head-title {
-      margin-left: 59px;
-      font-size: 22px;
-      font-weight: bold;
-      letter-spacing: 0.22px;
-      line-height: 26px; }
-    #cover .head-info .head-bio {
-      margin-left: 58px;
-      margin-top: 4px;
-      max-width: 485px;
-      font-size: 20px;
-      font-weight: 300;
-      letter-spacing: 0.2px;
-      line-height: 25px; }
-  #cover .head-label {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 436px;
-    max-width: 95px;
-    padding: 7px 49px 6px 16px;
-    color: #fafdfc;
-    background-color: #252928;
-    border-left: 3px solid #fff;
-    font-size: 16px;
+
+.movie-title {
+  margin-top: 186.69px;
+  margin-left: 61px;
+  display: inline-block; }
+
+.head-buttons {
+  margin-top: 21px;
+  margin-left: 58px;
+  margin-bottom: 16px; }
+
+.head-info {
+  color: #fafdfc; }
+  .head-info .head-title {
+    margin-left: 59px;
+    font-size: 22px;
     font-weight: bold;
-    letter-spacing: 0.16px;
-    line-height: 19px; }
+    letter-spacing: 0.22px;
+    line-height: 26px; }
+  .head-info .head-bio {
+    margin-left: 58px;
+    margin-top: 3px;
+    max-width: 485px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 25px; }
+
+.head-label {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 436px;
+  max-width: 95px;
+  padding: 8px 58px 5px 13px;
+  color: #fafdfc;
+  background-color: #252928;
+  border-left: 3px solid #fff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  line-height: 19px; }
 
 .originals {
   margin-top: 104px; }

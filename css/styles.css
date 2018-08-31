@@ -153,11 +153,13 @@ nav {
 .originals-covers {
   display: flex;
   max-width: 100%;
-  overflow-x: scroll; }
+  height: 433px;
+  margin-top: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden; }
   .originals-covers article {
     position: relative;
     margin-right: 5px;
-    margin-top: 10px;
     height: 433px; }
     .originals-covers article:hover .cover-info {
       opacity: 1;

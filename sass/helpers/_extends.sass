@@ -8,15 +8,20 @@
   border-radius: 3px
   border: none
   background-color: $btn-bg-default
-  color: map-get($font-colors, 'default')
+  transition: all 400ms ease-out
+  a
+    text-decoration: none
+    color: map-get($font-colors, 'default')
   img
     margin-right: 4px
-  &:first-child:hover
-    img
-      content: url(../assets/svg/btn-play-black.svg)
-  &:last-child:hover
-    img
-      content: url(../assets/svg/icon-plus-black.svg)
+    &:last-child
+      display: none
   &:hover
-    color: map-get($font-colors, 'dark')
+    img:first-child
+      display: none
+    img:last-child
+      display: inline-block
+  &:hover
     background-color: $btn-bg-hover
+    a
+      color: map-get($font-colors, 'dark')

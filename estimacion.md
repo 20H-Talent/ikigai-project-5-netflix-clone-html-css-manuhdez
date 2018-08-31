@@ -7,9 +7,10 @@
 | Search page ----------- | 0h 50m (2 pomo) -- | ----------------- |
 | ----------------------- | ------------------ | ----------------- |
 | Navbar ---------------- | 0h 25m (1 pomo) -- | 0h 25m (1 pomo) - |
-| Search input ---------- | 0h 25m (1 pomo) -- | ----------------- |
+| Search input ---------- | 0h 25m (1 pomo) -- | 0h 25m (1 pomo) - |
 | Header info ----------- | 0h 50m (2 pomo) -- | 0h 36m (1.5 pomo) |
-| Big carrousel --------- | 1h 15m (3 pomo) -- | ----------------- |
+| Big carrousel --------- | 1h 15m (3 pomo) -- | 0h 50m (2 pomo) - |
 | Small carrousel ------- | 1h 15m (3 pomo) -- | ----------------- |
 | Footer ---------------- | 0h 50m (2 pomo) -- | ----------------- |
 | Detail video player --- | 0h 25m (1 pomo) -- | ----------------- |
+| Sass folder structure - | 0h 50m (2 pomo) -- | 0h 50m (2 pomo) - |

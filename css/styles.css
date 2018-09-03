@@ -789,17 +789,21 @@ iframe {
 footer {
   display: flex;
   flex-direction: column;
-  margin-top: 135px;
-  padding-left: 229px; }
+  width: 68%;
+  margin: 9.37% auto 35px 15.9%; }
   footer .social {
     width: 191px;
     display: flex;
     justify-content: space-between; }
   footer .web-map {
     margin-top: 10px;
-    width: 849px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    @media (max-width: 600px) {
+      footer .web-map {
+        flex-direction: column;
+        margin-top: 25px; } }
     footer .web-map ul {
       list-style: none; }
     footer .web-map ul li {

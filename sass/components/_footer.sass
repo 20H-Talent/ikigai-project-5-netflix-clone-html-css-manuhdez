@@ -1,17 +1,22 @@
 footer
   display: flex
   flex-direction: column
-  margin-top: 135px
-  padding-left: 229px
+  width: 68%
+  margin: 9.37% auto 35px 15.9%
+  // padding-left: 229px
   .social
     width: 191px
     display: flex
     justify-content: space-between
   .web-map
     margin-top: 10px
-    width: 849px
     display: flex
     justify-content: space-between
+    flex-wrap: wrap
+    @media (max-width: 600px)
+      &
+        flex-direction: column
+        margin-top: 25px
     & ul
       list-style: none
     & ul li

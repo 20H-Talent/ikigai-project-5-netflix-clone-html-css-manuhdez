@@ -249,7 +249,9 @@ nav {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin-bottom: 51.31px; }
+  margin-bottom: 38.31px; }
+  .carrousel-small:last-child {
+    margin-bottom: 0; }
   .carrousel-small .carrousel-title h3 {
     margin-left: 58px;
     color: #fafdfc;
@@ -284,10 +286,12 @@ nav {
   left: 0;
   height: 121.69px;
   background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 14px 9px 6px; }
+  padding: 6px 7px;
+  transition: opacity 500ms ease-out; }
   .small-cover-info .cover-play-btn img {
     display: inline-block;
     width: 19.72px;
@@ -343,6 +347,8 @@ nav {
   width: 132px;
   height: 4px;
   background-color: #606060; }
+  .progress-bar.hidden {
+    opacity: 0; }
   .progress-bar .progress-status-0 {
     width: 0px;
     height: 4px;

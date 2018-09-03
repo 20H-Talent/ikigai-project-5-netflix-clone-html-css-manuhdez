@@ -5,7 +5,9 @@
   display: flex
   flex-direction: column
   max-width: 100%
-  margin-bottom: 51.31px
+  margin-bottom: 38.31px
+  &:last-child
+    margin-bottom: 0
   .carrousel-title h3
     margin-left: 58px
     +typo($size: 20px, $weight: bold, $space: 0.16px, $line: 24px)
@@ -37,11 +39,12 @@
   left: 0
   height: 121.69px
   background-color: rgba(0,0,0,0.6)
-  // opacity: 0
+  opacity: 0
   display: flex
   flex-direction: column
   justify-content: flex-end
-  padding: 0 14px 9px 6px
+  padding: 6px 7px
+  transition: opacity 500ms ease-out
   .cover-play-btn
       width: 19.72px
       height: 19.73px
@@ -77,5 +80,7 @@
   width: 132px
   height: 4px
   background-color: $bg-soft
+  &.hidden
+    opacity: 0
   .progress-status
     +progress-calc

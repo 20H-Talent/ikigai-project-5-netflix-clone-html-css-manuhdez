@@ -193,6 +193,15 @@ nav {
   margin-top: 186.69px;
   margin-left: 61px;
   display: inline-block; }
+  @media (max-width: 600px) {
+    .movie-title {
+      max-width: 100%;
+      display: flex;
+      margin: 0; }
+      .movie-title img {
+        width: 80%;
+        height: 80%;
+        margin: 186.69px auto 0 auto; } }
 
 .head-buttons {
   margin-top: 21px;
@@ -230,6 +239,9 @@ nav {
   font-weight: bold;
   letter-spacing: 0.16px;
   line-height: 19px; }
+  @media (max-width: 640px) {
+    .head-label {
+      top: 470px; } }
 
 .originals {
   margin-top: 104px; }

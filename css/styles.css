@@ -40,7 +40,7 @@ html {
   height: 2572px; }
   .debug::after {
     content: "";
-    background-image: url("../design/00-home-with-hovers.jpg");
+    background-image: url("../design/01-search.jpg");
     background-repeat: no-repeat;
     opacity: 0.3;
     position: absolute;
@@ -54,8 +54,12 @@ body {
   background-image: url(../assets/movie-images/pelicula-inocents.png);
   background-repeat: no-repeat; }
 
-#video-detail {
+#video-detail,
+#search-page {
   background-image: none; }
+
+.hidden {
+  opacity: 0; }
 
 nav {
   position: fixed;
@@ -257,6 +261,11 @@ nav {
 .small-covers {
   margin-top: 63px; }
 
+.carrousel-small-search {
+  margin-top: 8.5px; }
+  .carrousel-small-search:first-child {
+    margin-top: 108px; }
+
 .carrousel-small {
   display: flex;
   flex-direction: column;
@@ -359,8 +368,6 @@ nav {
   width: 132px;
   height: 4px;
   background-color: #606060; }
-  .progress-bar.hidden {
-    opacity: 0; }
   .progress-bar .progress-status-0 {
     width: 0px;
     height: 4px;

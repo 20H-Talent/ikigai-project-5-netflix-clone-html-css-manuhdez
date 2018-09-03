@@ -265,6 +265,8 @@ nav {
   overflow-x: scroll;
   overflow-y: hidden;
   height: auto; }
+  .carrousel-body::-webkit-scrollbar {
+    display: none; }
   .carrousel-body .carrousel-item {
     position: relative;
     margin-right: 5px; }

@@ -1,0 +1,4 @@
+@function get-width-from-percent($percent)
+  $first: 132px * $percent
+  $second: $first / 100
+  @return #{$second}

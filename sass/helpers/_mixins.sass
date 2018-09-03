@@ -5,3 +5,10 @@
   font-weight: $weight
   line-height: $line
   letter-spacing: $space
+
+=progress-calc()
+  @for $i from 0 through 100
+    &-#{$i}
+      width: get-width-from-percent($i)
+      height: 4px
+      background-color: $bg-accent

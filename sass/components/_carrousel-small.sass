@@ -5,6 +5,7 @@
   display: flex
   flex-direction: column
   max-width: 100%
+  margin-bottom: 51.31px
   .carrousel-title h3
     margin-left: 58px
     +typo($size: 20px, $weight: bold, $space: 0.16px, $line: 24px)
@@ -14,6 +15,7 @@
   display: flex
   overflow-x: scroll
   overflow-y: hidden
+  height: auto
   .carrousel-item
     position: relative
     margin-right: 5px
@@ -31,8 +33,7 @@
   position: absolute
   top: 0
   left: 0
-  bottom: 0
-  right: 0
+  height: 121.69px
   background-color: rgba(0,0,0,0.6)
   // opacity: 0
   display: flex
@@ -68,3 +69,11 @@
       +typo($color: 'default', $size: 8px, $space: 0.3px, $line: 17px)
   .small-cover-bio
     +typo($color: 'default', $size: 8px, $line: 1.3)
+
+.progress-bar
+  margin: 5px auto 0
+  width: 132px
+  height: 4px
+  background-color: $bg-soft
+  .progress-status
+    +progress-calc

@@ -242,6 +242,99 @@ nav {
     font-size: 14px;
     line-height: 18px; }
 
+.small-covers {
+  margin-top: 63px; }
+
+.carrousel-small {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; }
+  .carrousel-small .carrousel-title h3 {
+    margin-left: 58px;
+    color: #fafdfc;
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.16px; }
+
+.carrousel-body {
+  margin-top: 12px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  .carrousel-body .carrousel-item {
+    position: relative;
+    margin-right: 5px; }
+    .carrousel-body .carrousel-item > img {
+      width: 216px;
+      height: 121.69px; }
+    .carrousel-body .carrousel-item:first-child {
+      margin-left: 60px; }
+    .carrousel-body .carrousel-item:hover .small-cover-info {
+      opacity: 1; }
+
+.small-cover-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 14px 9px 6px; }
+  .small-cover-info .cover-play-btn img {
+    display: inline-block;
+    width: 19.72px;
+    height: 19.73px; }
+  .small-cover-info .cover-plus-btn {
+    position: absolute;
+    right: 1.75px;
+    top: 3px; }
+    .small-cover-info .cover-plus-btn img {
+      width: 16.5px;
+      height: 16.5px; }
+  .small-cover-info .small-cover-title {
+    color: #fafdfc;
+    font-family: "Helvetica";
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    margin-bottom: -3px; }
+  .small-cover-info .small-cover-details .small-match {
+    color: #46D36A;
+    font-family: "Helvetica";
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 17px;
+    letter-spacing: 0.4px; }
+  .small-cover-info .small-cover-details .small-rating {
+    color: #fafdfc;
+    font-family: "Helvetica";
+    font-size: 7.5px;
+    font-weight: normal;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+    border: 1px solid #fff;
+    padding: 0 2px;
+    margin: 0 2px; }
+  .small-cover-info .small-cover-details .small-duration {
+    color: #fafdfc;
+    font-family: "Helvetica";
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 17px;
+    letter-spacing: 0.3px; }
+  .small-cover-info .small-cover-bio {
+    color: #fafdfc;
+    font-family: "Helvetica";
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 1.3; }
+
 iframe {
   width: 100vw;
   height: 100vh;

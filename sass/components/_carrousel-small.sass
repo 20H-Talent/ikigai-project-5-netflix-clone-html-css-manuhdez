@@ -1,0 +1,70 @@
+.small-covers
+  margin-top: 63px
+
+.carrousel-small
+  display: flex
+  flex-direction: column
+  max-width: 100%
+  .carrousel-title h3
+    margin-left: 58px
+    +typo($size: 20px, $weight: bold, $space: 0.16px, $line: 24px)
+
+.carrousel-body
+  margin-top: 12px
+  display: flex
+  overflow-x: scroll
+  overflow-y: hidden
+  .carrousel-item
+    position: relative
+    margin-right: 5px
+    // width: 216px
+    // height: 121.69px
+    &>img
+      width: 216px
+      height: 121.69px
+    &:first-child
+      margin-left: 60px
+    &:hover .small-cover-info
+      opacity: 1
+
+.small-cover-info
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  background-color: rgba(0,0,0,0.6)
+  // opacity: 0
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  padding: 0 14px 9px 6px
+  .cover-play-btn
+      width: 19.72px
+      height: 19.73px
+    img
+      display: inline-block
+      width: 19.72px
+      height: 19.73px
+  .cover-plus-btn
+    position: absolute
+    right: 1.75px
+    top: 3px
+    img
+      width: 16.5px
+      height: 16.5px
+  .small-cover-title
+    +typo($size: 9px, $space: 1.2px, $line: 1)
+    margin-bottom: -3px
+  .small-cover-details
+    .small-match
+      +typo($color: 'match', $size: 8px, $space: 0.4px, $line: 17px)
+    .small-rating
+      +typo($color: 'default', $size: 7.5px, $space: 0.3px, $line: 17px)
+      border: 1px solid #fff
+      padding: 0 2px
+      margin: 0 2px
+    .small-duration
+      +typo($color: 'default', $size: 8px, $space: 0.3px, $line: 17px)
+  .small-cover-bio
+    +typo($color: 'default', $size: 8px, $line: 1.3)

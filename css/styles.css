@@ -52,8 +52,7 @@ html {
 
 body {
   background-image: url(../assets/movie-images/pelicula-inocents.png);
-  background-repeat: no-repeat;
-  opacity: 0.5; }
+  background-repeat: no-repeat; }
 
 #video-detail {
   background-image: none; }
@@ -64,9 +63,12 @@ nav {
   z-index: 999;
   width: 100%;
   height: 68px;
-  background-color: rgba(0, 0, 0, 0);
   display: flex;
-  align-items: center; }
+  align-items: center;
+  background-color: rgba(20, 20, 20, 0.3);
+  transition: all 400ms ease-in-out; }
+  nav:hover {
+    background-color: rgba(20, 20, 20, 0.8); }
   nav .logo {
     padding-left: 58px;
     padding-right: 45px;
@@ -79,14 +81,17 @@ nav {
   .nav-links li {
     list-style: none; }
     .nav-links li a {
-      color: #fafdfc;
       text-decoration: none;
-      font-family: Helvetica;
+      color: #fafdfc;
+      font-family: "Helvetica";
       font-size: 15px;
       font-weight: normal; }
     .nav-links li a:hover {
       opacity: 0.6; }
     .nav-links li.nav-selected a {
+      color: #fafdfc;
+      font-family: "Helvetica";
+      font-size: 15px;
       font-weight: bold; }
 
 .nav-form {
@@ -105,10 +110,12 @@ nav {
     transition: all 300ms ease-out;
     height: 100%;
     background: none;
+    color: #7f7f7f;
+    font-family: "Helvetica";
     font-size: 15px;
-    letter-spacing: -0.2px;
+    font-weight: normal;
     line-height: 18px;
-    color: #7F7F7F;
+    letter-spacing: -0.2px;
     opacity: 0;
     width: 0;
     border: none; }

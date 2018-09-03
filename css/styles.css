@@ -767,4 +767,42 @@ iframe {
   width: 54px;
   height: 54px; }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 135px;
+  padding-left: 229px; }
+  footer .social {
+    width: 191px;
+    display: flex;
+    justify-content: space-between; }
+  footer .web-map {
+    margin-top: 10px;
+    width: 849px;
+    display: flex;
+    justify-content: space-between; }
+    footer .web-map ul {
+      list-style: none; }
+    footer .web-map ul li {
+      margin-bottom: 10px; }
+    footer .web-map ul li a {
+      color: #7f7f7f;
+      font-family: "Helvetica";
+      font-size: 13px;
+      font-weight: normal;
+      line-height: 16px;
+      letter-spacing: 0.25px;
+      text-decoration: none; }
+      footer .web-map ul li a:hover {
+        text-decoration: underline; }
+  footer .copyright {
+    margin-top: 69px;
+    margin-bottom: 35px;
+    color: #7f7f7f;
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    letter-spacing: 0.11px; }
+
 /*# sourceMappingURL=styles.css.map */

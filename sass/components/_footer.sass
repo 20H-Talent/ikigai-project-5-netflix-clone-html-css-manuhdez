@@ -1,0 +1,27 @@
+footer
+  display: flex
+  flex-direction: column
+  margin-top: 135px
+  padding-left: 229px
+  .social
+    width: 191px
+    display: flex
+    justify-content: space-between
+  .web-map
+    margin-top: 10px
+    width: 849px
+    display: flex
+    justify-content: space-between
+    & ul
+      list-style: none
+    & ul li
+      margin-bottom: 10px
+    & ul li a
+      +typo($size: 13px, $space: 0.25px, $line: 16px, $color: 'soft')
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+  .copyright
+    margin-top: 69px
+    margin-bottom: 35px
+    +typo($size: 14px, $space: 0.11px, $line: 17px, $color: 'soft')

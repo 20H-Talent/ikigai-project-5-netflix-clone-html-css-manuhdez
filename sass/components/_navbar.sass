@@ -3,8 +3,9 @@ nav
   top: 0
   z-index: 999
   width: 100%
-  height: 68px
+  min-height: 68px
   display: flex
+  flex-wrap: wrap
   align-items: center
   background-color: rgba($bg-main, .3)
   transition: all 400ms ease-in-out
@@ -19,6 +20,8 @@ nav
   width: 380px
   display: flex
   justify-content: space-between
+  @media (max-width: 900px)
+    display: none
   li
     list-style: none
     a
@@ -28,6 +31,34 @@ nav
       opacity: 0.6
     &.nav-selected a
       +typo($size: 15px, $weight: bold)
+
+.nav-responsive-links
+  display: none
+  @media (max-width: 900px)
+    display: flex
+    padding: 25px
+    +typo($size: 15px, $weight: bold)
+    &:hover .responsive-links
+      display: flex
+      flex-direction: column
+      z-index: 999
+    .responsive-links
+      display: none
+      position: absolute
+      top: 68px
+      transform: translatex(-25%)
+      background-color: $bg-main
+      list-style: none
+      li
+        text-align: center
+        padding: 15px 50px
+      li.responsive-active a
+        +typo($size: 15px, $weight: bold)
+      li:hover
+        background-color: $bg-soft
+      a
+        text-decoration: none
+        +typo($size: 15px, $weight: normal)
 
 .nav-form
   margin-left: auto
@@ -39,6 +70,8 @@ nav
   position: relative
   display: flex
   justify-content: flex-end
+  @media (max-width: 635px)
+    margin-bottom: 15px
   label
     margin: 7px 2px 0 auto
   #search

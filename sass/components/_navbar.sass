@@ -70,11 +70,24 @@ nav
   position: relative
   display: flex
   justify-content: flex-end
-  @media (max-width: 635px)
-    margin-bottom: 15px
+  @media (max-width: 630px)
+    margin: 15px calc((100vw - 268px) / 2)
+    // margin-right: 25%
+    width: 268px
+    .input-border
+      position: absolute
+      width: 268px
+      height: 100%
+      border: 1px solid #fff
+      z-index: -1
   label
     margin: 7px 2px 0 auto
   #search
+    @media (max-width: 630px)
+      opacity: 1
+      width: 232px
+      margin-left: 10px
+      outline: none
     transition: all 300ms ease-out
     height: 100%
     background: none
@@ -94,3 +107,4 @@ nav
       width: 100%
       height: 100%
       z-index: -1
+

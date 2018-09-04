@@ -154,9 +154,16 @@ nav {
   position: relative;
   display: flex;
   justify-content: flex-end; }
-  @media (max-width: 635px) {
+  @media (max-width: 630px) {
     .nav-form {
-      margin-bottom: 15px; } }
+      margin: 15px calc((100vw - 268px) / 2);
+      width: 268px; }
+      .nav-form .input-border {
+        position: absolute;
+        width: 268px;
+        height: 100%;
+        border: 1px solid #fff;
+        z-index: -1; } }
   .nav-form label {
     margin: 7px 2px 0 auto; }
   .nav-form #search {
@@ -172,6 +179,12 @@ nav {
     opacity: 0;
     width: 0;
     border: none; }
+    @media (max-width: 630px) {
+      .nav-form #search {
+        opacity: 1;
+        width: 232px;
+        margin-left: 10px;
+        outline: none; } }
     .nav-form #search:focus {
       opacity: 1;
       width: 232px;

@@ -34,6 +34,11 @@ nav
 
 .nav-responsive-links
   display: none
+  @media (max-width: 630px)
+    display: flex
+    padding: 25px
+    margin-right: 50px
+    margin-left: auto
   @media (max-width: 900px)
     display: flex
     padding: 25px
@@ -72,7 +77,6 @@ nav
   justify-content: flex-end
   @media (max-width: 630px)
     margin: 15px calc((100vw - 268px) / 2)
-    // margin-right: 25%
     width: 268px
     .input-border
       position: absolute

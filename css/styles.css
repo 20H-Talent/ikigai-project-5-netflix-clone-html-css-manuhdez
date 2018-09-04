@@ -108,6 +108,12 @@ nav {
 
 .nav-responsive-links {
   display: none; }
+  @media (max-width: 630px) {
+    .nav-responsive-links {
+      display: flex;
+      padding: 25px;
+      margin-right: 50px;
+      margin-left: auto; } }
   @media (max-width: 900px) {
     .nav-responsive-links {
       display: flex;
